@@ -1,26 +1,193 @@
 body{ 
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     margin: 0%;
+    padding: 0%;
 }
 
-.main{
+.bannar-container{
     display: flex;
     width: 100%;
     height: 90vh;
     background-image: url(./images/Bannar.jpg); 
     background-size: cover;
-    position: absolute;
+    position: relative;
     align-items: center;
 }
 
-    h1{
+.main{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px #000033;
+    width: 100%;
+}
+
+.main img{
+    width: 250px;
+}
+
+#white{
+    color: white;
+    font-size: 16px;
+    te}
+
+.btn-dn1{
+    border-radius: 5px;
+    color: #1e2b47;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 15px 45px;
+    background-color: #f1a420;
+    margin-top: 15px;
+}
+
+.btn-dn1:hover{
+        background-color: #000033;
+        color: #f1a420;
+        border-color: white;
+        cursor: pointer;
+    }
+
+h1{
     text-align: center;
     font-size: 50px;
     font-weight: 700;
-    color: white;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
 }
 
 
 .highlight{
     color: #f1a420;
+    font-weight: 800;
+    text-shadow: 2px 2px 5px #000033;}
+
+.donate-amount-box{
+    text-align: center;
+    width: 25%;
+    border: solid 5px #000033;
+    cursor: pointer;
+    padding: 15px;
+    margin: 10px;
 }
+.donate-amount-box:hover{
+    box-shadow: 0px 0px 25px #000033;
+
+}
+
+.donate-container{
+    display: flex;
+    width: 50%;
+    margin: auto;
+
+}
+
+.donate-custom{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: auto;
+
+}
+input{
+    padding: 35px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: #000033;
+    width: 200px;
+    border: solid 5px #000033;
+    cursor: pointer;
+   
+}
+
+hr{
+    margin-top: 50px;
+}
+
+
+#p{
+    text-align: justify;
+}
+
+.Food{
+    border: solid 5px #f1a420;
+    border-radius: 15px;
+    padding: 30px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #f1a420;
+    text-align: justify; 
+}
+.Food img{
+    border: solid 5px #f1a420;
+    border-radius: 15px;
+}
+#btn-food{
+    background-color: #f1a420;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.Education{
+    border: solid 5px #f15823;
+    border-radius: 15px;
+    padding: 30px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #f15823;
+    text-align: justify; 
+ }
+ .Education img{
+     border: solid 5px #f15823;
+     border-radius: 15px;
+ }
+ #btn-education{
+     background-color: #f15823;
+     text-decoration: none;
+     padding: 10px 40px;
+     border-radius: 5px;
+     font-size: 20px;
+     font-weight: 600;
+     color: white;
+ }
+ 
+
+
+ .Plantation{
+    border: solid 5px #00a651;
+    border-radius: 15px;
+    padding: 30px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #00a651;
+    text-align: justify; 
+ }
+ .Plantation img{
+     border: solid 5px #00a651;
+     border-radius: 15px;
+ }
+ #btn-plantation{
+     background-color: #00a651;
+     text-decoration: none;
+     padding: 10px 40px;
+     border-radius: 5px;
+     font-size: 20px;
+     font-weight: 600;
+     color: white;
+ }
+ 
+ .donate-plan{
+    display: flex;
+    padding: 20px;
+    margin: auto;
+ }
+ 

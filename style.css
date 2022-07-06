@@ -76,7 +76,20 @@ p{
 
 .donate-amount-box:hover{
     box-shadow: 0px 0px 25px #000033;
-
+}
+    
+.donate-amount-box-popular{
+        text-align: center;
+        width: 25%;
+        border: solid 5px #f1a420;
+        cursor: pointer;
+        padding: 15px;
+        margin: 10px;
+        box-shadow: 0px 0px 15px #f1a420;
+    }
+    
+.donate-amount-box-popular:hover{
+        box-shadow: 0px 0px 25px #000033;
 }
 
 .donate-container{
